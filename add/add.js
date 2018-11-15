@@ -1,4 +1,5 @@
 const add = (...args) => {
+    //we taking all the arguments given and summing them 
     return [...args].reduce((a, b) => a + b, 0);
 
 }
